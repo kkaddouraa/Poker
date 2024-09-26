@@ -2,7 +2,7 @@ import java.util.*;
 
 /**
  * A poker hand is a list of cards, which can be of some "kind" (pair, straight, etc.)
- * 
+ * Author: kkaddoura
  */
 public class Hand implements Comparable<Hand> {
 
