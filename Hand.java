@@ -59,10 +59,7 @@ public class Hand implements Comparable<Hand> {
                 count++;
             }
         }
-        if (count == 2) {
-            return true;
-        }
-        return false;
+        return count == 2;
     }   
     
     /**
